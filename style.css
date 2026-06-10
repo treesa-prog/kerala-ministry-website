@@ -1,0 +1,167 @@
+/* ===== GLOBAL ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+    margin: 0;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: linear-gradient(90deg, #1e293b, #0f172a);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #e2e8f0 !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #38bdf8 !important;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2 {
+    font-weight: 800;
+    color: #1e293b;
+}
+
+/* ===== ABOUT HEADER ===== */
+.container h1 {
+    font-size: 44px;
+}
+
+.container p.text-muted {
+    font-size: 17px;
+    color: #475569;
+}
+
+/* ===== CARDS ===== */
+
+.card {
+  border-radius: 15px; /* keep card slightly rounded */
+}
+
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* ===== CARD TITLES ===== */
+.card-title {
+    font-weight: 600;
+}
+
+/* Mission */
+.card-title.text-primary {
+    font-size: 24px;
+    font-weight: 700;
+    border-left: 6px solid #2563eb;
+    padding-left: 12px;
+}
+
+/* Vision */
+.card-title.text-success {
+    font-size: 24px;
+    font-weight: 700;
+    border-left: 6px solid #16a34a;
+    padding-left: 12px;
+}
+
+/* ===== CARD TEXT ===== */
+.card-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #334155;
+}
+
+/* ===== ABOUT INFO BOX ===== */
+.container .card.p-4 {
+    background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+    border-left: 6px solid #2563eb;
+}
+
+/* ===== BUTTON ===== */
+.btn-primary {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 22px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #1d4ed8, #1e40af);
+    transform: scale(1.05);
+}
+
+/* ===== HERO TEXT ===== */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+}
+
+/* ===== FEATURES ===== */
+.bg-Secondarytext-white {
+    background: linear-gradient(135deg, #64748b, #334155);
+    color: white;
+}
+
+.bg-Secondary {
+    background: linear-gradient(135deg, #cbd5f5, #e2e8f0);
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: linear-gradient(90deg, #0f172a, #1e293b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+/* ===== SPACING ===== */
+.container {
+    margin-top: 40px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .hero-text {
+        width: 90%;
+        font-size: 14px;
+    }
+}
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+

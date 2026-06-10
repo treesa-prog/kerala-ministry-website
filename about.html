@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About - Kerala Ministry</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fb;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(90deg, #0d1b2a, #1b263b);
+}
+
+/* HERO SECTION */
+.hero {
+    height: 60vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://upload.wikimedia.org/wikipedia/commons/d/dd/Inside_View_of_Kerala_Legislative_Assembly.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* GLASS CARDS */
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px;
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.glass-card:hover {
+    transform: translateY(-8px);
+}
+
+/* ICON STYLE */
+.icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.mission { color: #0d6efd; }
+.vision { color: #198754; }
+.gov { color: #6f42c1; }
+
+/* SECTION */
+.section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+    background: linear-gradient(90deg, #0d1b2a, #1b263b);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Kerala Ministry</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link text-white" href="index.html">Home</a>
+        <a class="nav-link text-white active" href="#">About</a>
+        <a class="nav-link text-white" href="ministers.html">Ministers</a>
+        <a class="nav-link text-white" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h1>About Kerala Government</h1>
+        <p>Governance for people, development for the future</p>
+    </div>
+</section>
+
+<!-- CONTENT -->
+<div class="container mt-5">
+
+    <div class="row g-4">
+
+        <!-- MISSION -->
+        <div class="col-md-6">
+            <div class="glass-card">
+            
+                <h4 class="text-primary">Our Mission</h4>
+                <p>
+                    The Government of Kerala is committed to ensuring inclusive growth,
+                    sustainable development, and equal opportunities for all citizens.
+                </p>
+            </div>
+        </div>
+
+        <!-- VISION -->
+        <div class="col-md-6">
+            <div class="glass-card">
+
+                <h4 class="text-success">Our Vision</h4>
+                <p>
+                    To transform Kerala into a knowledge-based society with world-class
+                    infrastructure, empowered citizens, and transparent governance.
+                </p>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div class="col-12">
+            <div class="glass-card">
+                <h4>About Kerala Governance</h4>
+                <p>
+                    Kerala is known for its strong public service system, high literacy rate,
+                    and people-focused governance model. The government focuses on healthcare,
+                    education, IT growth, and sustainability.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Kerala Ministry Website | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
